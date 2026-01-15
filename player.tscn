@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cwdsvp05mnu85"]
+
+[ext_resource type="Script" uid="uid://dk18t5ev7lb30" path="res://scripts/player.gd" id="1_7edn3"]
+[ext_resource type="PackedScene" uid="uid://dlow1yasx2auf" path="res://models/axolotl.fbx" id="2_ue0pg"]
+
+[node name="Player" type="CharacterBody3D"]
+script = ExtResource("1_7edn3")
+
+[node name="axolotl" parent="." instance=ExtResource("2_ue0pg")]
